@@ -1,9 +1,11 @@
 package com.xinqiao.model;
 
 public class User {
-
+	
+	private Integer id;
 	private String username;
 	private String pwd;
+	private Integer age;
 	
 	public User(String username,String pwd){
 		this.username=username;

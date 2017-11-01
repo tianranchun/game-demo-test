@@ -31,5 +31,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   		<a href="${pageContext.request.contextPath }/logout.action">退出</a>
   	</c:if>
   	${message}
+  	${message2}
   </body>
 </html>
